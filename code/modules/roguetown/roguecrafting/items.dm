@@ -26,9 +26,9 @@
 	tools = list(/obj/item/needle)
 	craftdiff = 3
 
-/datum/crafting_recipe/roguetown/armingcap
-	name = "Arming Cap"
-	result = /obj/item/clothing/head/roguetown/armingcap
+/datum/crafting_recipe/roguetown/paddedcap
+	name = "Padded Cap"
+	result = /obj/item/clothing/head/roguetown/paddedcap
 	reqs = list(/obj/item/natural/fibers = 5)
 	tools = list(/obj/item/needle)
 	craftdiff = 3
