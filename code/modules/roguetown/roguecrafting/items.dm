@@ -19,6 +19,20 @@
 	verbage = "sews"
 	craftdiff = 0
 
+/datum/crafting_recipe/roguetown/gambeson
+	name = "Gambeson"
+	result = /obj/item/clothing/suit/roguetown/armor/gambeson
+	reqs = list(/obj/item/natural/fibers = 20)
+	tools = list(/obj/item/needle)
+	craftdiff = 3
+
+/datum/crafting_recipe/roguetown/armingcap
+	name = "Arming Cap"
+	result = /obj/item/clothing/head/roguetown/armingcap
+	reqs = list(/obj/item/natural/fibers = 5)
+	tools = list(/obj/item/needle)
+	craftdiff = 3
+
 /datum/crafting_recipe/roguetown/clothbelt
 	name = "cloth belt"
 	result = /obj/item/storage/belt/rogue/leather/cloth
@@ -66,6 +80,21 @@
 	reqs = list(/obj/item/grown/log/tree/small = 1)
 	craftdiff = 0
 
+/datum/crafting_recipe/roguetown/billhook
+	name = "Improvised Billhook"
+	result = /obj/item/rogueweapon/spear/billhook
+	reqs = list(/obj/item/rogueweapon/sickle,
+				/obj/item/grown/log/tree/small = 1)
+	tools = list(/obj/item/rogueweapon/hammer)
+	craftdiff = 3
+
+/datum/crafting_recipe/roguetown/goedendag
+	name = "Goedendag"
+	result = /obj/item/rogueweapon/mace/goden
+	reqs = list(/obj/item/grown/log/tree/small = 1,
+				/obj/item/rogueweapon/hoe)
+	tools = list(/obj/item/rogueweapon/hammer)
+	craftdiff = 3
 
 /datum/crafting_recipe/roguetown/rproesthetic
 	name = "wood arm (L)"
