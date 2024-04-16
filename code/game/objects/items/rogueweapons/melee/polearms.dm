@@ -140,10 +140,8 @@
 	force_wielded = 25
 	name = "Improvised Billhook"
 	desc = "Looks hastily made"
-	icon_state = "billhook"
 	smeltresult = /obj/item/ingot/iron
 	max_blade_int = 100
-	minstr = 8
 	wdefense = 4
 
 /obj/item/rogueweapon/spear/stone
