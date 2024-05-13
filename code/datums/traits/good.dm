@@ -50,6 +50,21 @@
 			C.adjustBruteLoss(-0.8, FALSE)
 			C.adjustFireLoss(-0.4, FALSE)
 
+/datum/quirk/rapidregen
+	name = "Rapid Regeneration"
+	desc = ""
+	value = 2
+	mob_trait = TRAIT_RAPID_REGENERATION
+	gain_text = "<span class='notice'>I feel like my wounds heal faster.</span>"
+	lose_text = "<span class='danger'>I no longer feel like I can self-heal efficiently.</span>"
+
+/datum/quirk/rapidregn/on_process()
+	var/mob/living/carbon/C = quirk_holder
+		if (NUTRITION_LEVEL_HUNGRY to NUTRITION_LEVEL_FULL)
+			C.adjustBruteLoss(-0.1, TRUE)
+			C.adjustFireLoss(-0.05, TRUE)
+			C.adjust_nutrition(-(0.1))
+
 /datum/quirk/empath
 	name = "Empath"
 	desc = ""
