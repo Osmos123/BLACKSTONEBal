@@ -2127,6 +2127,7 @@
 #include "code\modules\jobs\job_types\roguetown\adventurer\types\combat\rare\sentinel.dm"
 #include "code\modules\jobs\job_types\roguetown\adventurer\types\combat\rare\treasurehunter.dm"
 #include "code\modules\jobs\job_types\roguetown\adventurer\types\combat\rare\witchhunter.dm"
+#include "code\modules\jobs\job_types\roguetown\adventurer\types\combat\rare\feral.dm"
 #include "code\modules\jobs\job_types\roguetown\adventurer\types\pilgrim\blacksmith.dm"
 #include "code\modules\jobs\job_types\roguetown\adventurer\types\pilgrim\carpenter.dm"
 #include "code\modules\jobs\job_types\roguetown\adventurer\types\pilgrim\cheesemaker.dm"
